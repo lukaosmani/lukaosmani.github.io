@@ -1,95 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luka Osmani's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap"
+   rel="stylesheet">
+  <link href="styles/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>Luka Osmani</title>
 </head>
-
-<script type="text/javascript" charset="utf-8">  
-    (function (w, d, t, f) {  
-        w[f] = w[f] || function (c, k, n) {  
-            s = w[f], k = s['k'] = (s['k'] || (k ? ('&k=' + k) : '')); s['c'] =  
-            c = (c instanceof Array) ? c : [c]; s['n'] = n = n || 0; L = d.createElement(t), e = d.getElementsByTagName(t)[0];  
-            L.async = 1; L.src = '//feed.aqicn.org/feed/' + (c[n].city) + '/' + (c[n].lang || '') + '/feed.v1.js?n=' + n + k;  
-            e.parentNode.insertBefore(L, e);  
-        };  
-    })(window, document, 'script', '_aqiFeed');    
-</script>
-
 <body>
-    <header>
-        <h1>👋 Hi, my name is Luka</h1>
-        <p>With a decade of experience, I'm known for simplifying tech complexities.</p>
-    </header>
-<span id="city-aqi-container"></span>  
-<script type="text/javascript" charset="utf-8">  
-    _aqiFeed({
-        container: "city-aqi-container",
-        city: "barcelona",
-        lang: "en"
-    });  
-</script>
-    <section id="expertise">
-        <h2>🛠️ My Technical Expertise</h2>
-        <ul>
-            <li>Proficient in macOS, Linux, iOS, and Windows.</li>
-            <li>Adept at managing enterprise device fleets through MDM solutions.</li>
-            <li>Skilled in scripting with Bash.</li>
-            <li>Expanding proficiency in Python, Docker, Kubernetes, AWS, and Microservices.</li>
-        </ul>
-    </section>
+  <div class="container">
+    <div class="menu">
+      <div class="buttons-flex">
+      <div class="button red"></div>
+      <div class="button yellow"></div>
+      <div class="button green"></div>
+    </div>
+    <div class="title">
+      <a href="https://github.com/lukaosmani" target="_blank"><h1><i class='fab fa-github'></i> github.com/lukaosmani</h1></a>
+    </div>
+    </div>
+    <div id="app">
+    </div>
+  </div>
 
-    <section id="certifications">
-        <h2>📜 Certifications</h2>
-        <ul>
-            <li>Certified Kubernetes Administrator (CKA)</li>
-            <li>AWS Certified Cloud Practitioner</li>
-            <li>Nginx Microservices certificate</li>
-            <li>Apple Certified Support Professional </li>
-        </ul>
-    </section>
-
-    <section id="journey">
-        <h2>👨🏻‍💻 Professional Journey</h2>
-        <p>Senior IT Specialist, N26; Barcelona — Since 2021</p>
-        <ul>
-            <li>Managing and maintaining Kandji MDM.</li>
-            <li>Expert in automating workflows within Jira.</li>
-        </ul>
-
-        <p>IT Specialist, Outfit7 Limited - Ekipa2; Ljubljana — 2018-2021</p>
-        <ul>
-            <li>Trusted problem-solver for users.</li>
-            <li>Managing virtual events with Zoom Software.</li>
-        </ul>
-    </section>
-
-    <section id="education">
-        <h2>🎓 Educational Background: Where Music Met Machines</h2>
-        <p>Imagine this: I spent a significant part of my life strumming strings as a student of Classical Guitar. But here's the twist: Computers were my secret love affair all along. While I explored music, my hidden hobby was tech tinkering. And guess what? It ultimately transformed into my full-fledged profession.</p>
-        <ul>
-            <li>Multimedia Production Student, IAM, 2015-2017.</li>
-            <li>Media Production Engineer, Audio Production, 2013-2015.</li>
-            <li>High School Graduate, Classical Guitar, 2008-2012.</li>
-        </ul>
-    </section>
-
-    <section id="skills">
-        <h2>🚀 Key Skills</h2>
-        <ul>
-            <li>Effective time management and efficiency optimization.</li>
-            <li>Outstanding communication abilities.</li>
-            <li>Unwavering passion for learning and technology evolution.</li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>I'm passionate about simplifying tech. As I strive to become a Junior SRE / DevOps Engineer, I'm eager to contribute my skills and creativity to your team's success. Let's collaborate for remarkable tech feats! 🚀</p>
-    </footer>
-
-    <script src="script.js"></script>
+  <script src="scripts/main.js"></script>  
 </body>
 </html>
-
