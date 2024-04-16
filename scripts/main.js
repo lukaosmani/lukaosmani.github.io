@@ -71,26 +71,22 @@ async function getInputValue(){
   if(value === "all"){
     trueValue(value);
     
-    //createCode("projects", "My github page with my projects. Follow me there ;)");
     createCode("about me", "Who am i and what do i do.");
     createCode("social -a", "All my social networks.");
     createCode("clear", "Clean the terminal.");
     
   }
-  /*else if(value === "projects"){
-    trueValue(value);
-    createText("<a href='https://github.com/heberleonard2' target='_blank'><i class='fab fa-github white'></i> github.com/heberleonard2</a>")
-  }*/
+
   else if(value === "about me"){
     trueValue(value);
     createText("Hey 👋, my name is Luka")
-    //createText("Desenvolvedor atualmente focado em todo o ecossistema Javascript. Utilizando principalmente a stack <span class='blue'>Node, React e React Native </span>por permitir criar aplicações de forma descomplicada e produtiva.")
   }
   else if(value === "social -a"){
     trueValue(value);
     createText("<a href='https://github.com/lukaosmani' target='_blank'><i class='fab fa-github white'></i> github.com/lukaosmani</a>")
     createText("<a href='https://www.linkedin.com/in/lukaosmani/' target='_blank'><i class='fab fa-linkedin-in white'></i> linkedin.com/in/lukaosmani</a>")
     createText("<a href='https://www.instagram.com/lukaosmani/' target='_blank'><i class='fab fa-instagram white'></i> instagram.com/lukaosmani</a>")
+    createText("<a href='https://music.apple.com/si/album/lost-connections/1728389058?i=1728389059' target='_blank'><i class='fab fa-solid fa-music'></i> https://music.apple.com/si/artist/kalu/1468964186</a>")
   }
   else if(value === "social"){
     trueValue(value);
