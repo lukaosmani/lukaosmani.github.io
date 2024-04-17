@@ -28,7 +28,7 @@ async function open_terminal(){
   createText("You can run several commands:");
  
   createCode("about me", "Who am i and what do i do.");
-  createCode("all", "See all commands.");
+  createCode("help", "See all commands.");
   createCode("social -a", "All my social networks.");
 
   await delay(500);
@@ -68,7 +68,7 @@ function removeInput(){
 async function getInputValue(){
   
   const value = document.querySelector("input").value;
-  if(value === "all"){
+  if(value === "help"){
     trueValue(value);
     
     createCode("about me", "Who am i and what do i do.");
